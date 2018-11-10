@@ -4,9 +4,9 @@
 
 A basic Motion based Raspberry Pi Surveillance system.
 
-I got tired of running the commands founds in `install_rpi_surveillance.sh` so I put this little
-project together to make things a little easier whenever I'm setting up a new Raspberry Pi based
-surveillance system. This is a very basic configuration but it's a great place to start.
+I got tired of running the commands found in `install_rpi_surveillance.sh` whenever I setup a new Raspberry Pi
+based surveillance system so I put this little project together to make things a little easier. This is a very basic configuration of [Motion](https://motion-project.github.io/motion_guide.html) 
+but it may be great place for you to start if you're interested in building your own surveillance system.
 
 ### Requirements 
 
