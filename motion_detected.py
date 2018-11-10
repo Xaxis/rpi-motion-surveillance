@@ -16,7 +16,7 @@ def main():
 
 	# Create the enclosing (outer) message
 	outer = MIMEMultipart()
-	outer['Subject'] = 'MOTION DETECTED - Cabin Front Door - END'
+	outer['Subject'] = 'MOTION DETECTED'
 	outer['To'] = COMMASPACE.join(recipients)
 	outer['From'] = sender
 	outer.preamble = 'You will not see this in a MIME-aware mail reader.\n'
@@ -69,9 +69,9 @@ def main():
                 s.login(sender, gmail_password)
                 s.sendmail(sender, recipients, composed)
                 s.close()
-                print("SURVEILLANCE MOTION DETECTED - END. EMAIL ALERT SENT.")
+                print("SURVEILLANCE MOTION DETECTED. EMAIL ALERT SENT.")
 	except:
-		print("SURVEILLANCE MOTION DETECTED - END. EMAIL ALERT FAILED TO SEND.")
+		print("SURVEILLANCE MOTION DETECTED. EMAIL ALERT FAILED TO SEND.")
 		raise
 
 if __name__ == '__main__' :
