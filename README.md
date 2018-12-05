@@ -1,4 +1,4 @@
-# rpisurveillance
+# rpi-motion-surveillance
 
 ## Summary
 
